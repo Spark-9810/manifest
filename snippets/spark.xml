@@ -139,6 +139,7 @@
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/libziparchive" />
+  <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/modules/Bluetooth" />
@@ -273,6 +274,7 @@
   <project path="system/update_engine" name="system_update_engine" remote="spark" />
   <project path="system/vold" name="system_vold" remote="spark" />
   <project path="system/extras" name="system_extras" remote="spark" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="arrow" />
 
   <project path="libcore" name="libcore" remote="spark" />
 
